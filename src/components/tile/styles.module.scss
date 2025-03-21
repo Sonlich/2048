@@ -1,0 +1,42 @@
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  font-size: 32px;
+  font-weight: bold;
+  transition: transform 0.15s ease-in-out, background-color 0.2s;
+}
+
+.new {
+  animation: pop-in 0.3s cubic-bezier(0.1, 1, 0.2, 0.6);
+}
+
+@keyframes pop-in {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.merged {
+  animation: merge 0.2s ease-in-out;
+}
+
+@keyframes merge {
+  0% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.tile.empty {
+  background-color: var(--untouched-color);
+  border: none;
+}
