@@ -13,6 +13,7 @@
 .modalContent {
   width: 300px;
   max-width: 40%;
+  color: var(--primary-orange-color);
   background: var(--primary-text-color);
   padding: 20px;
   position: fixed;
@@ -40,6 +41,7 @@
   color: var(--primary-text-color);
   border: none;
   border-radius: 5px;
+  margin-top: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
