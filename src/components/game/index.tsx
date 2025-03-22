@@ -89,7 +89,6 @@ const Game = () => {
           </button>
         </div>
 
-        <div className={styles.boardContainer}>
           <Board
               tiles={tiles}
               onMove={handleMove}
@@ -103,7 +102,6 @@ const Game = () => {
             score={score}
             onClose={() => setShowModal(false)}
         />
-      </div>
     </>
   );
 };

@@ -65,16 +65,3 @@
   background-color: var(--secondary-orange-color);
   transform: scale(1.05);
 }
-
-.boardContainer {
-  width: 70vh;
-  height: 70vh;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  background: var(--score-bg);
-  border-radius: 10px;
-  padding: 10px;
-  gap: 5px;
-  box-shadow: 0 10px 30px var(--board-shadow);
-}
