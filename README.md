@@ -2,6 +2,11 @@
 
 https://sonlich.github.io/2048/
 
+# Versions
+
+Node - 18.20.2
+npm - 10.5.0
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
